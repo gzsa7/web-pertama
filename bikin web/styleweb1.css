@@ -1,0 +1,193 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Poppins:wght@600&display=swap');
+
+*, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.FCounter {
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	width: 100%;
+	height: 100hv;
+	background-color: white;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	padding: 15px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+
+
+}
+
+.brand {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.5em;
+	padding: 15px;
+	text-transform: capitalize;
+}
+
+.firstname {
+	color: white;
+	font-weight: 700;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation li {
+	list-style-type: none;
+	padding: 20px;
+}
+ 
+.navigation li a {
+	color: white;
+	font-size: 15px;
+	text-decoration:none;
+	text-transform: capitalize;
+}
+
+.navigation li a:hover {
+	color: green;
+	transition: all .2s ease-in-out;
+
+}
+
+.container{
+	width: 100%;
+	min-width: 100vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 180px;
+}
+
+.content-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.content-section .card {
+	flex: 1;
+	margin: 20px 20px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content-section .card img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.content-section .card h2{
+	margin: 15px 0px;
+	font-size: 23px;
+	color: black;
+	font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.content-section .card p{
+	font-size: 16px;
+	line-height: 1,5;
+	padding: 0px 10px;
+	margin-bottom: 20px;
+	font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.card:hover{
+	transition: all .2s ease-in-out;
+	filter: brightness(70%);
+}
+
+@media screen and (max-width: 768px){
+	.content-section{
+		flex-direction: column;
+	}
+}
+	
+.anime {
+	font: Times New Roman, sans-serif;
+	display: flex;
+	justify-content: center;
+	text-transform: capitalize;
+}
+
+.containermovie{
+	width: 100%;
+	min-width: 100vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 180px;
+}
+
+.content-sectionmovie{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.content-sectionmovie .card-movie {
+	flex: 1;
+	margin: 20px 20px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content-sectionmovie .card-movie img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.content-sectionmovie .card-movie h2{
+	margin: 15px 0px;
+	font-size: 23px;
+	color: black;
+	font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.content-sectionmovie .card-movie p{
+	font-size: 16px;
+	line-height: 1,5;
+	padding: 0px 10px;
+	margin-bottom: 20px;
+	font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.card-movie:hover{
+	transition: all .2s ease-in-out;
+	filter: brightness(70%);
+}
+
+@media screen and (max-width: 768px){
+	.content-sectionmovie{
+		flex-direction: column;
+	}
+}
+
+.movie {
+	font: Times New Roman, sans-serif;
+	display: flex;
+	justify-content: center;
+	text-transform: capitalize;
+	background: black;
+	color: #f7f7f7;
+}
